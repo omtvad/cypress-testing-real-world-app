@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "cypress": "^13.8.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "mocha": "^10.4.0",
+    "typescript": "^5.4.5"
+  },
+  "compilerOptions": {
+    "baseUrl": "https://www.vg.no",
+    "module": "commonjs"
+  },
+  "include": [
+    "**/*.ts",
+    "./cypress.d.ts"
+  ],
+  "name": "cypress-testing-real-world-app",
+  "description": "Testing Cypress Real World Application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open"
+  },
+  "keywords": [
+    "Cypress",
+    "TypeScript",
+    "Integration",
+    "test"
+  ],
+  "author": "Ole Martin Vad",
+  "license": "ISC"
+}
